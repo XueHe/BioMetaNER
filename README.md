@@ -2,15 +2,17 @@
 
 **Taming Label Noise in Metagenomics Named Entity Recognition**
 
-Submission preparation repository for schema-first transfer from schema-aligned
+Research code and audited results for schema-first transfer from schema-aligned
 Silver annotations to heterogeneous Bronze supervision. The primary system uses
 four independent BIO token classifiers for MIC, DIS, CHE and HAB. E6 first
 fine-tunes on Silver, then adapts only the classifier on Bronze.
 
-> Private preparation snapshot, not a completed public data release. Training
+> Public code and result release, not a completed corpus release. Training
 > data, original abstracts, annotations, raw predictions, model weights, API
 > credentials and reviewer correspondence are intentionally excluded. See
-> [release status](docs/RELEASE_STATUS.md) before making the repository public.
+> [release status](docs/RELEASE_STATUS.md) for remaining limitations. The four
+> PubMedBERT E6 seed-42 checkpoints are hosted separately on
+> [Hugging Face](https://huggingface.co/jasminhx/BioMetaNER-schemefirst).
 
 ## Audited Results
 
@@ -105,6 +107,6 @@ This repository is separate from that dictionary/API implementation.
 ## License and Citation
 
 A redistribution license has not yet been selected with all contributors.
-Private hosting does not grant permission to redistribute upstream corpora or
+Public visibility does not grant permission to redistribute upstream corpora or
 models. See [license status](LICENSE_STATUS.md). Citation metadata is provisional
 until the manuscript author list and publication identifier are finalized.

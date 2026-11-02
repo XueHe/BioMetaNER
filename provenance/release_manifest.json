@@ -2,7 +2,10 @@
   "version": "0.1.0-preparation",
   "date": "2026-11-02",
   "repository": "https://github.com/XueHe/BioMetaNER",
-  "visibility": "private",
+  "visibility": "public",
+  "public_release_date": "2026-11-02",
+  "initial_preparation_visibility": "private",
+  "model_repository": "https://huggingface.co/jasminhx/BioMetaNER-schemefirst",
   "training_performed": false,
   "inference_performed": false,
   "golden": {

@@ -1,5 +1,8 @@
 # License Status
 
+This repository is publicly viewable. Public visibility is not itself an
+open-source license or permission to redistribute third-party material.
+
 No open-source redistribution license has been granted for this preparation
 snapshot. Confirm the code copyright holders, original project contributors and
 coauthor agreement before adding an MIT, Apache, or other public license.
