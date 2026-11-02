@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Provisional software metadata. Use the final manuscript citation when available."
+type: software
+title: "BioMetaNER: Taming Label Noise in Metagenomics Named Entity Recognition"
+authors:
+  - name: "BioMetaNER contributors"
+repository-code: "https://github.com/XueHe/BioMetaNER"
+version: "0.1.0-preparation"
+date-released: "2026-11-02"

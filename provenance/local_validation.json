@@ -1,0 +1,20 @@
+{
+  "unit_tests": 10,
+  "canonical_evaluation_runs_checked": 8,
+  "figure4_summaries_checked": 225,
+  "bootstrap_draws": 2000,
+  "bootstrap_estimates_checked": 450,
+  "bootstrap_contrasts_checked": 350,
+  "original_function_ast_parity": true,
+  "training_function_class_ast_parity": true,
+  "training_performed": false,
+  "model_inference_performed": false,
+  "warning": "CPU arithmetic and source parity checks do not establish fresh-environment GPU reproduction",
+  "figure_script_cpu_render_verified": true,
+  "svg_editable_text": true,
+  "pdf_fonts_embedded": true,
+  "png_dpi": 600,
+  "svg_text_elements": 418,
+  "svg_raster_images": 0,
+  "github_actions_status": "inactive_template_missing_workflow_authorization"
+}

@@ -1,0 +1,9 @@
+method,status,missing
+MINT Dictionary,not_verified,"Original Golden predictions, integer counts, dictionary version and matcher for the 69.20 claim"
+GLiNER fine-tuned,not_verified,"Fine-tuned run directory, training log/checkpoint and predictions for the 65.68 claim; available Group1 run is ZERO-SHOT"
+DynClean,different_gold_counts_only,1725-entity Golden v2 predictions and pinned matcher; existing NMS JSON totals 1720 entities (496/604/418/202 MIC/DIS/CHE/HAB)
+Snorkel Fusion,verified_three_seeds,"Historical training-input hashes; current implementation is custom EM, not the snorkel package"
+Noise-Masked Loss,verified_seed42,Seeds 1 and 2; historical teacher training-input hashes
+Training-Dynamics Filtering,wrong_method_name_verified_numbers,"Actual epoch-training-dynamics filter run; DC20 is Silver-disagreement filtering, only seed42"
+Ours E6,verified_three_seeds,"Historical training-input hashes; current Silver file has 600 records, split 480/120"
+Claude Sonnet 4.6 + MINT,integer_csv_only_not_unified_protocol_verified,"41-document original annotation TSV inputs (all_rounds_metadata is empty), saved per-document predictions used by that CSV, and provider/model metadata"

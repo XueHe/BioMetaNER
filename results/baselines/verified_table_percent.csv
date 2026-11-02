@@ -1,0 +1,6 @@
+method,n_runs,MIC,DIS,CHE,HAB,Macro,MIC_sample_sd,DIS_sample_sd,CHE_sample_sd,HAB_sample_sd,Macro_sample_sd
+Noise-Masked Loss,1,92.14,85.00,81.11,39.25,74.37,,,,,
+Silver-disagreement Filtering,1,95.01,79.51,78.59,17.12,67.56,,,,,
+Snorkel Fusion,3,93.47,85.67,88.40,49.16,79.17,0.82,1.23,1.74,11.82,2.94
+Ours E6,3,93.91,88.85,89.94,81.64,88.59,1.26,0.29,0.34,0.70,0.13
+GLiNER zero-shot (not the claimed fine-tuned baseline),1,84.53,85.43,79.81,41.53,72.83,,,,,

@@ -1,0 +1,37 @@
+method,run,seed,type,TP,FP,FN,F1
+Noise-Masked Loss,Baseline_NML_pubmedbert_seed42,42,MIC,463,45,34,0.9213930348258706
+Noise-Masked Loss,Baseline_NML_pubmedbert_seed42,42,DIS,547,134,59,0.85003885003885
+Noise-Masked Loss,Baseline_NML_pubmedbert_seed42,42,CHE,395,159,25,0.811088295687885
+Noise-Masked Loss,Baseline_NML_pubmedbert_seed42,42,HAB,52,11,150,0.39245283018867927
+Silver-disagreement Filtering,Baseline_DC20_pubmedbert_seed42,42,MIC,466,18,31,0.9500509683995922
+Silver-disagreement Filtering,Baseline_DC20_pubmedbert_seed42,42,DIS,489,135,117,0.7951219512195122
+Silver-disagreement Filtering,Baseline_DC20_pubmedbert_seed42,42,CHE,358,133,62,0.7859495060373216
+Silver-disagreement Filtering,Baseline_DC20_pubmedbert_seed42,42,HAB,19,1,183,0.17117117117117117
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed42,42,MIC,451,10,46,0.941544885177453
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed42,42,DIS,492,37,114,0.8669603524229075
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed42,42,CHE,342,25,78,0.8691232528589581
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed42,42,HAB,47,7,155,0.3671875
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed1,1,MIC,435,8,62,0.925531914893617
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed1,1,DIS,470,39,136,0.8430493273542601
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed1,1,CHE,368,27,52,0.9030674846625767
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed1,1,HAB,76,23,126,0.5049833887043189
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed2,2,MIC,453,17,44,0.9369183040330921
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed2,2,DIS,486,38,120,0.8601769911504424
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed2,2,CHE,355,32,65,0.8798017348203222
+Snorkel Fusion,E6_pubmedbert_silver_full_bronze_lastlayer_snorkelmint_seed2,2,HAB,97,23,105,0.6024844720496895
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed42,42,MIC,462,12,35,0.9515962924819773
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed42,42,DIS,536,68,70,0.8859504132231405
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed42,42,CHE,365,26,55,0.9001233045622689
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed42,42,HAB,179,61,23,0.8099547511312217
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed1,1,MIC,449,10,48,0.9393305439330544
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed1,1,DIS,531,59,75,0.8879598662207357
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed1,1,CHE,379,41,41,0.9023809523809524
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed1,1,HAB,179,58,23,0.8154897494305239
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed2,2,MIC,441,14,56,0.9264705882352942
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed2,2,DIS,547,74,59,0.8916055419722901
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed2,2,CHE,365,30,55,0.8957055214723927
+Ours E6,E6_pubmedbert_silver_full_bronze_lastlayer_seed2,2,HAB,173,45,29,0.8238095238095238
+GLiNER zero-shot (not the claimed fine-tuned baseline),Group1_GLiNER_large_v25,,MIC,470,145,27,0.8453237410071942
+GLiNER zero-shot (not the claimed fine-tuned baseline),Group1_GLiNER_large_v25,,DIS,478,35,128,0.8543342269883825
+GLiNER zero-shot (not the claimed fine-tuned baseline),Group1_GLiNER_large_v25,,CHE,328,74,92,0.7980535279805353
+GLiNER zero-shot (not the claimed fine-tuned baseline),Group1_GLiNER_large_v25,,HAB,65,46,137,0.41533546325878595

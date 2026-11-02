@@ -1,0 +1,17 @@
+[
+  {
+    "file": "training/train_ner_binary.py",
+    "original_sha256": "0f9f433ae49417f1d1e6d9ecee20518b2e111228f9f2cd8e81d4d67a41b61f44",
+    "portability_edits": "Replace machine-specific paths with repository-relative defaults; explicit runtime overrides via scripts/train.py"
+  },
+  {
+    "file": "training/train_softcrf.py",
+    "original_sha256": "71ffb266023a945d593a7195833ffac975673a73bd693d6a9c972b65ec5d4189",
+    "portability_edits": "Replace machine-specific paths with repository-relative defaults; explicit runtime overrides via scripts/train.py"
+  },
+  {
+    "file": "training/train_ner_joint.py",
+    "original_sha256": "7821ef37e8c2abcc08da042ca80d2a160cd9894177859db5a4488507f7a2eec7",
+    "portability_edits": "Replace machine-specific paths with repository-relative defaults; explicit runtime overrides via scripts/train.py"
+  }
+]

@@ -1,0 +1,51 @@
+protocol,method,type,screenshot_percent,recomputed_percent,difference_pp
+original_record,Noise-Masked Loss,MIC,,92.13930348258707,
+original_record,Noise-Masked Loss,DIS,,85.003885003885,
+original_record,Noise-Masked Loss,CHE,,81.1088295687885,
+original_record,Noise-Masked Loss,HAB,39.25,39.24528301886793,-0.004716981132069975
+original_record,Noise-Masked Loss,Macro,74.37,74.37432526853213,0.0043252685321277795
+original_record,Silver-disagreement Filtering,MIC,,95.00509683995922,
+original_record,Silver-disagreement Filtering,DIS,,79.51219512195122,
+original_record,Silver-disagreement Filtering,CHE,,78.59495060373216,
+original_record,Silver-disagreement Filtering,HAB,17.12,17.117117117117118,-0.0028828828828828534
+original_record,Silver-disagreement Filtering,Macro,67.56,67.55733992068993,-0.0026600793100755027
+original_record,Snorkel Fusion,MIC,92.55,93.46650347013875,0.9165034701387498
+original_record,Snorkel Fusion,DIS,84.3,85.67288903092033,1.3728890309203337
+original_record,Snorkel Fusion,CHE,90.31,88.3997490780619,-1.9102509219381005
+original_record,Snorkel Fusion,HAB,50.5,49.15517869180028,-1.3448213081997196
+original_record,Snorkel Fusion,Macro,79.41,79.17358006773031,-0.23641993226968339
+original_record,Ours E6,MIC,93.91,93.9132474883442,0.003247488344200633
+original_record,Ours E6,DIS,88.85,88.85052738053888,0.0005273805388839037
+original_record,Ours E6,CHE,89.94,89.94032594718713,0.0003259471871359665
+original_record,Ours E6,HAB,81.64,81.64180081237564,0.001800812375634564
+original_record,Ours E6,Macro,88.59,88.58647540711146,-0.003524592888538791
+original_record,DynClean,MIC,58.2,58.201058201058196,0.0010582010581927648
+original_record,DynClean,DIS,62.9,62.881628280664174,-0.01837171933582482
+original_record,DynClean,CHE,55.6,55.60053981106613,0.0005398110661261057
+original_record,DynClean,HAB,29.7,29.655172413793103,-0.044827586206896086
+original_record,DynClean,Macro,51.6,51.584599676645404,-0.015400323354597845
+original_record,Claude Sonnet 4.6 + MINT,MIC,96.94,96.93877551020408,-0.0012244897959163836
+original_record,Claude Sonnet 4.6 + MINT,DIS,92.28,92.28130360205832,0.0013036020583143682
+original_record,Claude Sonnet 4.6 + MINT,CHE,91.6,91.6030534351145,0.003053435114509284
+original_record,Claude Sonnet 4.6 + MINT,HAB,82.26,82.25806451612904,-0.0019354838709659816
+original_record,Claude Sonnet 4.6 + MINT,Macro,90.77,90.77029926587649,0.0002992658764924272
+fixed_golden_v2,Noise-Masked Loss,MIC,,92.13930348258707,
+fixed_golden_v2,Noise-Masked Loss,DIS,,85.003885003885,
+fixed_golden_v2,Noise-Masked Loss,CHE,,81.1088295687885,
+fixed_golden_v2,Noise-Masked Loss,HAB,39.25,39.24528301886793,-0.004716981132069975
+fixed_golden_v2,Noise-Masked Loss,Macro,74.37,74.37432526853213,0.0043252685321277795
+fixed_golden_v2,Silver-disagreement Filtering,MIC,,95.00509683995922,
+fixed_golden_v2,Silver-disagreement Filtering,DIS,,79.51219512195122,
+fixed_golden_v2,Silver-disagreement Filtering,CHE,,78.59495060373216,
+fixed_golden_v2,Silver-disagreement Filtering,HAB,17.12,17.117117117117118,-0.0028828828828828534
+fixed_golden_v2,Silver-disagreement Filtering,Macro,67.56,67.55733992068993,-0.0026600793100755027
+fixed_golden_v2,Snorkel Fusion,MIC,92.55,93.46650347013875,0.9165034701387498
+fixed_golden_v2,Snorkel Fusion,DIS,84.3,85.67288903092033,1.3728890309203337
+fixed_golden_v2,Snorkel Fusion,CHE,90.31,88.3997490780619,-1.9102509219381005
+fixed_golden_v2,Snorkel Fusion,HAB,50.5,49.15517869180028,-1.3448213081997196
+fixed_golden_v2,Snorkel Fusion,Macro,79.41,79.17358006773031,-0.23641993226968339
+fixed_golden_v2,Ours E6,MIC,93.91,93.9132474883442,0.003247488344200633
+fixed_golden_v2,Ours E6,DIS,88.85,88.85052738053888,0.0005273805388839037
+fixed_golden_v2,Ours E6,CHE,89.94,89.94032594718713,0.0003259471871359665
+fixed_golden_v2,Ours E6,HAB,81.64,81.64180081237564,0.001800812375634564
+fixed_golden_v2,Ours E6,Macro,88.59,88.58647540711146,-0.003524592888538791

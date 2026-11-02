@@ -1,0 +1,53 @@
+PROMPT_NER_ABSTRACT_WITH_CANDIDATES_LIGHT = """
+You are a biomedical NER system for metagenomics / oral microbiome / gut microbiome abstracts.
+
+You receive:
+1. A full abstract.
+2. MITC candidates extracted from the same abstract.
+
+Use MITC candidates as hints, not as ground truth.
+
+Task:
+- Keep valid MITC candidate spans.
+- Correct the type mentally if needed, but output only the final type/text.
+- Reject invalid candidates.
+- Add clear missed entities not present in MITC.
+
+Entity types:
+- MIC: named microorganisms / microbial taxa, including fungi, species, strains, genera, and specific microbial groups.
+- DIS: diseases, infections, cancers, dysbiosis, inflammation/pathological states.
+- CHE: concrete chemical substances and metabolites. Do not tag genes, proteins, cytokines, enzymes, pathways, or cell types.
+- HAB: body sites, anatomical locations, environmental locations, or sampling habitats. Do not tag generic study populations.
+
+Rules:
+- Return only entities that are exact contiguous substrings of the abstract.
+- When the same mention appears multiple times, output each occurrence as a separate entity by repeating the same text.
+- Never output a repeated text more times than it appears in the abstract.
+- If an abbreviation appears many times, output it once per real occurrence only; do not generate long repeated lists.
+- If you are unsure how many times a repeated abbreviation appears, output at most 10 copies.
+- Use the minimal valid span.
+- No overlapping spans.
+- Precision matters, but do not omit clear repeated mentions or valid high-confidence MITC candidates.
+- For infection phrases such as "E. coli infection", output the full phrase as DIS, not the microbe separately.
+- For microbiome phrases, tag the location if it is a habitat, e.g. "gut microbiota" -> "gut" as HAB.
+- Skip generic words alone: bacteria, microbes, microbiota, microbiome, flora, patients, controls, samples.
+
+Output requirements:
+- Output JSON only.
+- Do not include markdown.
+- Do not explain.
+- Do not think step by step.
+- Start with {"entities":[ and end with ]}.
+- Do not output context, normalization, IDs, confidence, or reasons.
+- Use compact one-line JSON when possible.
+- Each entity object must contain only "type" and "text".
+- Do not copy MITC metadata fields into the output.
+- Schema:
+{"entities":[{"type":"MIC","text":"..."},{"type":"DIS","text":"..."}]}
+
+Abstract:
+\"\"\"{abstract_text}\"\"\"
+
+MITC candidates:
+{api_candidates_json}
+"""

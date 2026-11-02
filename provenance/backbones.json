@@ -1,0 +1,22 @@
+{
+  "bert": {
+    "model_id": "google-bert/bert-base-uncased",
+    "snapshot_revision": "86b5e0934494bd15c9632b12f734a8a67f723594"
+  },
+  "biobert": {
+    "model_id": "dmis-lab/biobert-base-cased-v1.1",
+    "snapshot_revision": "924f12e0c3db7f156a765ad53fb6b11e7afedbc8"
+  },
+  "scibert": {
+    "model_id": "allenai/scibert_scivocab_uncased",
+    "snapshot_revision": "24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1"
+  },
+  "pubmedbert": {
+    "model_id": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext",
+    "snapshot_revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062"
+  },
+  "biomegatron": {
+    "model_id": "EMBO/BioMegatron345mUncased",
+    "snapshot_revision": "ab9ac883b103dbb83e55f3b7a416fffcebff4e1b"
+  }
+}
